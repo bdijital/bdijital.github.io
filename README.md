@@ -1,0 +1,1 @@
+Barlas Dijital statik web sitesi.
