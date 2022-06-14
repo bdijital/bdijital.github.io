@@ -99,9 +99,9 @@
 			setTimeout(function(){
 				$('.js-fh5co-more-works').slideToggle(400);
 				if ( $this.hasClass('active') ) {
-					$this.find('.js-fh5co-view-text').text('View Less');
+					$this.find('.js-fh5co-view-text').text('Daha Az Göster');
 				} else {
-					$this.find('.js-fh5co-view-text').text('View All');
+					$this.find('.js-fh5co-view-text').text('Tümünü Göster');
 				}
 			}, 500);
 
