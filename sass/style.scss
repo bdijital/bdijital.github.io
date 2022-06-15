@@ -262,7 +262,7 @@ pre {
 			display: inline-block;
 			&.fh5co-active {
 				a {
-					color: #7c7c7c;
+					color: #444444;
 					border-bottom: 2px solid $brand-primary;
 				}
 			}
@@ -274,14 +274,15 @@ pre {
 			}
 			> a {
 				padding: 5px 0;
-				margin: 0  10px;
+				margin: 0 10px;
 				@media screen and (max-width: $screen-sm) {
-					margin: 0  0px;
+					margin: 0 0px;
 				}
-				color: #7c7c7c;
+				color: #444444;
 				border-bottom: 2px solid transparent;
+
 				&:hover, &:active, &:focus {
-					color: #7c7c7c;
+					color: #444444;
 					border-bottom: 2px solid $brand-primary;
 				}
 			}
@@ -544,7 +545,7 @@ pre {
 				margin-bottom: 10px;
 			}
 			a {
-				color: #7c7c7c;
+				color: #444444;
 				padding: 4px 0;
 				margin: 0 10px 0 0;
 			}
