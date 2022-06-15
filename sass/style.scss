@@ -45,17 +45,17 @@ $brand-danger: #e02745;
 $brand-secondary: #f66d52;
 $brand-white: #ffffff;
 $brand-gray: #ccc;
-$brand-gray-alt: #7b7b7b;
+$brand-gray-alt: #444444;
 $brand-gray-alt-2: #eaeaea;
 $brand-black: #000000;
 $brand-darker: #2e2e2e;
 $brand-lighter: #ebebeb;
 $brand-darker-2: #282e3c;
 
-$sans-serif : 'PT Mono', sans-serif;
+$sans-serif: 'PT Mono', sans-serif;
 
 @mixin transition($transition) {
-    -webkit-transition: all $transition ease;
+	-webkit-transition: all $transition ease;
     -moz-transition:    all $transition ease;
     -ms-transition:    all $transition ease;
     -o-transition:      all $transition ease;
